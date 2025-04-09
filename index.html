@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salut Bina Permata Pati</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #eaf4fc; /* Biru muda */
+        }
+        header {
+            background-color: #66b2ff; /* Biru muda */
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #0078D4; /* Biru */
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        ul {
+            text-align: left;
+            display: inline-block;
+            padding: 0;
+            list-style-type: none;
+        }
+        ul li {
+            margin: 10px 0;
+        }
+        .button {
+            display: inline-block;
+            background-color: #66b2ff; /* Biru muda */
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+        .button:hover {
+            background-color: #0078D4; /* Biru */
+        }
+        footer {
+            background-color: #0078D4; /* Biru */
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Salut Bina Permata Pati</h1>
+        <p>Selamat datang di website resmi Salut Bina Permata Pati</p>
+    </header>
+    <nav>
+        <a href="#tentang">Tentang Kami</a>
+        <a href="#kegiatan">Kegiatan</a>
+        <a href="#pendaftaran">Pendaftaran</a>
+        <a href="#galeri">Galeri</a>
+        <a href="#akademik">Akademik</a>
+        <a href="#kontak">Kontak</a>
+        <a href="https://earning.ut.ac.id" target="_blank">Earning UT</a>
+    </nav>
+    <section id="tentang">
+        <h2>Tentang Kami</h2>
+        <p>Salut Bina Permata Pati adalah organisasi pendidikan yang mendukung pengembangan sumber daya manusia di wilayah Pati.</p>
+    </section>
+    <section id="kegiatan">
+        <h2>Kegiatan</h2>
+        <p>Kami menyelenggarakan berbagai kegiatan edukasi dan pelatihan untuk masyarakat.</p>
+    </section>
+    <section id="pendaftaran">
+        <h2>Pendaftaran</h2>
+        <p>Silakan isi formulir di bawah ini untuk mendaftar:</p>
+        <form action="/submit" method="POST">
+            <label for="nama">Nama</label>
+            <input type="text" id="nama" name="nama" placeholder="Masukkan nama Anda" required>
+            
+            <label for="alamat">Alamat</label>
+            <textarea id="alamat" name="alamat" placeholder="Masukkan alamat Anda" required></textarea>
+            
+            <label for="nik">Nomor NIK</label>
+            <input type="text" id="nik" name="nik" placeholder="Masukkan nomor NIK Anda" required>
+            
+            <label for="nomor_hp">Nomor HP (WhatsApp)</label>
+            <input type="text" id="nomor_hp" name="nomor_hp" placeholder="Masukkan nomor HP Anda" required>
+            
+            <button type="submit">Daftar</button>
+        </form>
+    </section>
+    <section id="galeri">
+        <h2>Galeri</h2>
+        <p>Anda dapat melihat foto dan video kegiatan kami di Google Drive dengan mengklik tombol di bawah ini.</p>
+        <a href="https://drive.google.com/drive/folders/your-folder-id" target="_blank" class="button">Lihat Galeri</a>
+    </section>
+    <section id="akademik">
+        <h2>Akademik</h2>
+        <h3>Program Studi</h3>
+        <ul>
+            <li>Fakultas Ekonomi (FEKON)
+                <ul>
+                    <li>Manajemen</li>
+                    <li>Akuntansi</li>
+                    <li>Ekonomi Pembangunan</li>
+                </ul>
+            </li>
+            <li>Fakultas Hukum, Ilmu Sosial, dan Ilmu Politik (FHISIP)
+                <ul>
+                    <li>Ilmu Administrasi Negara</li>
+                    <li>Ilmu Administrasi Bisnis</li>
+                    <li>Ilmu Komunikasi</li>
+                    <li>Sosiologi</li>
+                </ul>
+            </li>
+            <li>Fakultas Sains dan Teknologi (FST)
+                <ul>
+                    <li>Statistika</li>
+                    <li>Matematika</li>
+                    <li>Biologi</li>
+                    <li>Teknologi Pangan</li>
+                </ul>
+            </li>
+            <li>Fakultas Keguruan dan Ilmu Pendidikan (FKIP)
+                <ul>
+                    <li>Pendidikan Bahasa dan Sastra Indonesia</li>
+                    <li>Pendidikan Bahasa Inggris</li>
+                    <li>Pendidikan Kimia</li>
+                    <li>Pendidikan Fisika</li>
+                </ul>
+            </li>
+        </ul>
+        <h3>Kalender Akademik</h3>
+        <p>Anda dapat melihat kalender akademik Universitas Terbuka dengan mengklik tautan di bawah ini:</p>
+        <a href="https://www.ut.ac.id/kalender-akademik" target="_blank" class="button">Lihat Kalender Akademik</a>
+    </section>
+    <section id="kontak">
+        <h2>Kontak</h2>
+        <p>Email: utpokjarpermatapati@gmail.com</p>
+        <p>Telepon: 08997645227</p>
+    </section>
+    <footer>
+        <p>&copy; 2025 Salut Bina Permata Pati. All rights reserved.</p>
+    </footer>
+</body>
+</html>
